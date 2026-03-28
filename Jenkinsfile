@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         DOCKER = '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"'
+        DOCKER_HOST = 'npipe:////./pipe/docker_engine'
     }
 
     stages {
